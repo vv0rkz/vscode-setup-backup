@@ -6,4 +6,4 @@
 
 ### Бэкап текущих настроек
 ```bash
-backup.bat
+init-vscode-setup-for-current-system.bat
