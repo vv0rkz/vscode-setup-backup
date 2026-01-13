@@ -1,0 +1,43 @@
+{
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome",
+    "workbench.editorAssociations": {
+        "*.xlsx": "default"
+    },
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.formatOnSave": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "prettier.tabWidth": 2,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.printWidth": 120,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell 7": {
+            "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell 7",
+    "terminal.integrated.suggest.enabled": true,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "javascript": false
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "window.openFoldersInNewWindow": "on"
+}

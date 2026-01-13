@@ -1,0 +1,19 @@
+{
+	"React Stateless Component Custom": {
+		"prefix": "rsc",
+		"body": [
+			"import React from 'react';",
+			"import styles from './styles.module.css';",
+			"",
+			"const ${TM_FILENAME_BASE} = () => {",
+			"  return (",
+			"    <div className={styles.root}>",
+			"      $0",
+			"    </div>",
+			"  );",
+			"};",
+			"export default ${TM_FILENAME_BASE}",
+		],
+		"description": "My custom React component"
+	}
+}

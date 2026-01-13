@@ -1,0 +1,10 @@
+clinyong.vscode-css-modules
+dsznajder.es7-react-js-snippets
+ecmel.vscode-html-css
+esbenp.prettier-vscode
+formulahendry.auto-rename-tag
+github.copilot
+github.copilot-chat
+grapecity.gc-excelviewer
+ritwickdey.liveserver
+vscode-icons-team.vscode-icons
