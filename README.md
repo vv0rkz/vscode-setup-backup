@@ -52,7 +52,7 @@ init-vscode-setup-for-current-system.bat
 ### React компонент
 
 **rsc + Tab:**
-\`\`\`javascript
+```javascript
 import React from 'react';
 import styles from './ComponentName.module.css';
 
@@ -63,4 +63,4 @@ export const ComponentName = () => {
     </div>
   );
 };
-\`\`\`
+```
