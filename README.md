@@ -21,7 +21,7 @@ init-vscode-setup-for-current-system.bat
 ### Навигация
 | Шорткат | Действие |
 |---------|----------|
-| Ctrl+1/2/3 | Explorer / Editor / Git |
+| Alt+1/2/3 | Explorer / Editor / Git |
 | Alt+←/→ | Переключение табов |
 
 ### Код
