@@ -1,43 +1,101 @@
 {
-    "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome",
-    "workbench.editorAssociations": {
-        "*.xlsx": "default"
-    },
-    "editor.unicodeHighlight.nonBasicASCII": false,
-    "workbench.iconTheme": "vscode-icons",
-    "editor.formatOnSave": true,
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "javascript.suggest.autoImports": true,
-    "typescript.suggest.autoImports": true,
-    "prettier.tabWidth": 2,
-    "prettier.semi": false,
-    "prettier.singleQuote": true,
-    "prettier.printWidth": 120,
-    "terminal.integrated.profiles.windows": {
-        "PowerShell 7": {
-            "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
-            "icon": "terminal-powershell"
-        }
-    },
-    "terminal.integrated.defaultProfile.windows": "PowerShell 7",
-    "terminal.integrated.suggest.enabled": true,
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false,
-        "javascript": false
-    },
-    "editor.unicodeHighlight.ambiguousCharacters": false,
-    "editor.tabSize": 2,
-    "editor.minimap.enabled": false,
-    "window.openFoldersInNewWindow": "on"
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome",
+  "workbench.editorAssociations": {
+    "*.xlsx": "default"
+  },
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.formatOnSave": true,
+
+  // Prettier форматтеры
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Автоимпорты
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Prettier настройки
+  "prettier.tabWidth": 2,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 120,
+
+  // Terminal
+  "terminal.integrated.profiles.windows": {
+    "PowerShell 7": {
+      "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell 7",
+  "terminal.integrated.suggest.enabled": true,
+
+  // GitHub Copilot
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "javascript": false
+  },
+
+  // Editor настройки
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": []
+  },
+
+  // Workspace
+  "window.openFoldersInNewWindow": "on",
+
+  // Code Actions при сохранении
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "explicit",
+    "source.organizeImports": "explicit"
+  },
+
+  // Автодополнение
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  "editor.suggest.showMethods": true,
+  "editor.suggest.showFunctions": true,
+  "editor.suggest.showConstants": true,
+  "editor.suggest.showClasses": true,
+
+  // Предпочтения импортов
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "relative",
+
+  // Форматирование
+  "editor.formatOnSaveMode": "file",
+
+  // Дефолтный форматтер (глобально)
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
